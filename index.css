@@ -1,0 +1,128 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+body {
+    background-color: white;
+    background-image: url(nora.jpg);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position-x: 100%;
+    background-position-y: 95%;
+}
+body p{
+     color: black;
+}
+
+
+.txtloading {
+    color: black;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 24px;
+}
+
+.txt {
+    color: black;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 44px;
+}
+
+.desc2 {
+    color: black;
+    font-size: 15px;
+    text-align: justify;
+    margin-block-start: 50px;
+    width: 50%;
+}
+
+body section {
+    height: calc(100vh - 38px);
+    position: relative;
+}
+
+.imgp {
+    background-image: url(nora.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.bar {
+    float: left;
+    width: 15px;
+    height: 6px;
+    border-radius: 2px;
+    background-color: violet;
+}
+
+.title {
+    display: inline;
+    position: relative;
+}
+
+.container {
+    margin-bottom: 0px;
+    margin-top: 50px;
+    margin-left: 100px;
+    position: relative;
+    overflow: hidden;
+}
+.desc1{
+    font-family: 'Karla', sans-serif;
+    font-size: 44px;
+}
+
+.load-10 .bar {
+    animation: loadingJ 2s cubic-bezier(0.17, 0.37, 0.43, 0.67) infinite;
+}
+
+
+
+.contenu{ 
+    width: 810px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+form{
+    outline: none;
+    width:300px;
+    padding:8px;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: white;
+    border: solid 4px #e6e6e6;
+    font-family: "OpenSans";
+    src: url('../Open_Sans/OpenSans-Regular.ttf');
+}
+
+button{
+    text-align: center;
+}
+
+button:hover{
+    background-color: #17c1ff;
+    color: white;
+    border: none;
+}
+
+button:active{
+    box-shadow: inset 1px 1px 1px 1px black;
+}
+
+input{
+    width: 250px;
+    height: 30px;
+    border: solid 2px #e6e6e6;
+    margin:1%;
+}
+
+input:hover{
+    border:2px solid #17c1ff
+}
+
+.messagepart{
+    height: 60px;
+}
