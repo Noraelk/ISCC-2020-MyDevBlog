@@ -9,8 +9,6 @@
     <title>Nora's DevBlog</title>
 </head>
 
-<body class=" bgacc">
-    
     <div class="w3-bar w3-black w3-hide-small">
         <a href="connexion.php" class="w3-bar-item w3-button w3-right">Connexion</i></a>
         <a href="contact.php" class="w3-bar-item w3-button w3-right">Contact</i></a>

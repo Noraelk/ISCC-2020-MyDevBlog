@@ -13,13 +13,6 @@ body p{
      color: black;
 }
 
-
-.txtloading {
-    color: black;
-    font-family: 'Dancing Script', sans-serif;
-    font-size: 24px;
-}
-
 .txt {
     color: black;
     font-family: 'Dancing Script', sans-serif;
@@ -37,15 +30,6 @@ body p{
 body section {
     height: calc(100vh - 38px);
     position: relative;
-}
-
-.imgp {
-    background-image: url(nora.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    top: 0;
-    left: 0;
-    width: 100%;
 }
 
 .bar {
@@ -121,8 +105,4 @@ input{
 
 input:hover{
     border:2px solid #17c1ff
-}
-
-.messagepart{
-    height: 60px;
 }
