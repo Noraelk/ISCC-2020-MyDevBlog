@@ -57,11 +57,6 @@ body section {
     font-size: 44px;
 }
 
-.load-10 .bar {
-    animation: loadingJ 2s cubic-bezier(0.17, 0.37, 0.43, 0.67) infinite;
-}
-
-
 
 .contenu{ 
     width: 810px;
